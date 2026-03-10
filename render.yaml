@@ -24,7 +24,7 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 20.10.0
-      - key: MONGO_URI
+      - key: MONGODB_URI
         sync: false
       - key: JWT_SECRET
         sync: false

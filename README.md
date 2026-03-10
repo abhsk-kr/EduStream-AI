@@ -59,7 +59,7 @@ npm install
 Create a `.env` file in the `server` directory:
 ```env
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/edustream
+MONGODB_URI=mongodb://127.0.0.1:27017/edustream
 JWT_SECRET=your_super_secret_jwt_key
 AI_SERVICE_URL=http://localhost:8000
 ```
@@ -109,7 +109,7 @@ This project is fully configured for a 1-click deployment using Render Blueprint
 3. Click **New** -> **Blueprint**.
 4. Connect your GitHub repository.
 5. Render will read the `render.yaml` file at the root of the project.
-6. Provide the required environment variables (`MONGO_URI`, `JWT_SECRET`, `OPENAI_API_KEY`) when prompted.
+6. Provide the required environment variables (`MONGODB_URI`, `JWT_SECRET`, `OPENAI_API_KEY`) when prompted.
 7. Click **Apply**. Render will automatically provision and link the AI Service, Node API, and React Frontend in the correct order.
 
 ## 📄 License
